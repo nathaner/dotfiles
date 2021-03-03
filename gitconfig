@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Nathan Riviere
+	email = 25883088+nathaner@users.noreply.github.com
+[core]
+	editor = code --wait
+	autocrlf = input
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
