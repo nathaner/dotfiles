@@ -9,3 +9,7 @@
 	tool = vscode
 [difftool "vscode"]
 	cmd = "code --wait --diff $LOCAL $REMOTE"
+
+[alias]
+	l = log --oneline -10 --graph
+	s = status -s
