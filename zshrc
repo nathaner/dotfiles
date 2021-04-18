@@ -24,7 +24,7 @@ alias gc='git commit -m'
 
 # Customize Prompt(s)
 PROMPT='
-%1~ %L %# '
+%F{208}%n%f in %F{226}%~%f  %L %# '
 
 RPROMPT='%*'
 
